@@ -9,7 +9,7 @@ const UserItem = props => {
   return (
     <li className='user-item'>
       <Card className='user-item_content'>
-        {/*  use string literal for passing the value */}
+        {/*  use string templat literal for passing or inject the value */}
         <Link to={`/${props.id}/places`}>
           <div className='user-item_image'>
             <Avatar image={props.image} alt={props.name} />
