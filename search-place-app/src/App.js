@@ -6,13 +6,13 @@ import {
   Switch
 } from "react-router-dom"
 import Users from "./user/pages/Users"
-import NewPlace from "./user/pages/NewPlace"
+import NewPlace from "../src//places/pages/NewPlaces"
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/' exact={true}>
+        <Route path='/' exact>
           <Users />
         </Route>
         <Route path='/places/new' exact>
